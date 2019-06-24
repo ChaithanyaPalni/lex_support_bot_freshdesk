@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>LUIS Demo</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
+        id="bootstrap-css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://sdk.amazonaws.com/js/aws-sdk-2.41.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" type="text/css"
+        rel="stylesheet">
+    <link href="./css/chat_styles.css" type="text/css" rel="stylesheet">
+    <script src="./js/bot_config.js"></script>
+    <script src="./js/chat.js"></script>
+    <script src="./js/chat_actions.js"></script>
+    <script src="./js/aws_config.js"></script>
+
+</head>
+
+<body class="body-scroll">
+    <div class="container">
+        <h3 class="text-center" style="margin-top:15px; color:#4F8CEF;">Support Bot</h3>
+        <div class="messaging">
+            <div class="inbox_msg">
+                <div class="mesgs" style="margin-left:200px;">
+                    <div class="msg_history">
+                    
+                    </div>
+                    <div class="type_msg" style="margin-bottom: 35px;">
+                        <div class="input_msg_write">
+                            <input type="text" class="write_msg" style="outline:none;" placeholder="Type a message" />
+                            <button class="msg_send_btn" type="button"><i class="fa fa-paper-plane-o"
+                                    aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
